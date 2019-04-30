@@ -71,6 +71,7 @@ if (isset($_POST['form1'])) {
         </fieldset>
         <br />
         <input type="submit" value="Add new city to table" />
+    </form>
 
 </body>
 

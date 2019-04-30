@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  background-color: #5F514A
+  padding: 0;
+  background-color: #5e5149;
 }
 
 .container {
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 620px;
   text-align: center;
   background-color: rgba(44, 62, 80, 0.7);
   margin: 20px auto;
@@ -22,23 +23,10 @@ input[type="password"] {
   padding-left: 40px;
 }
 
-.btn-login {
+.btn-register {
   padding: 15px 25px;
   border: none;
   background-color: #27ae60;
   color: #fff;
-}
-
-.cleansession {
-  margin: 100px auto;
-}
-
-.cleansession a {
-  text-decoration: none;
-  color: black;
-  cursor: default;  
-}
-
-.fas.fa-crow{
-cursor: crosshair;
+  cursor: pointer;
 }
